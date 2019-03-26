@@ -6,7 +6,7 @@
   (:use #:cl)
   (:export
    #:make-resource-collection           ; FUNCTION
-   #:make-qubit-resource                ; FUNCTION   
+   #:make-qubit-resource                ; FUNCTION
    #:make-null-resource                 ; FUNCTION
    #:make-all-resource                  ; FUNCTION
    #:make-resource-range                ; FUNCTION
@@ -20,7 +20,7 @@
    #:resource-subsetp                   ; PREDICATE
    #:resource-null-p                    ; PREDICATE
    #:resource-all-p                     ; PREDICATE
-   
+
    #:build-qubit-pair-resource          ; FUNCTION
    ))
 
@@ -392,7 +392,7 @@
   (:export
    #:parsed-program-to-logical-matrix ; FUNCTION
    )
-  
+
   ;; type-safety.lisp
   (:export
    #:quil-type-error                    ; FUNCTION
@@ -464,8 +464,7 @@
    #:rb-sequence                        ; FUNCTION
    #:serialize-clifford                 ; FUNCTION
    #:serialize-clifford-sequence        ; FUNCTION
-   #:clifford-element-string            ; FUNCTION
-   #:apply-clifford-string              ; FUNCTION
+   #:clifford-element-string            ; FUNCTION   #:apply-clifford-string              ; FUNCTION
    #:pauli-matrix-p                     ; FUNCTION
    #:n-qubit-pauli-basis-matrices       ; FUNCTION
    #:clifford-from-quil                 ; FUNCTION
