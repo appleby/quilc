@@ -74,3 +74,7 @@ appropriate method of comparison."
                     :do (rplacd last-cons new-cons)
                         (setf last-cons new-cons)))
     (cdr leash)))
+
+(defun power-of-two-p (n)
+  "Given an INTEGER N, return true if N is a power of 2, greater than 1."
+  (zerop (logand n (1- n))))
